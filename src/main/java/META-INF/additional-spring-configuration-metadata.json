@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "cron.expression",
+    "type": "java.lang.String",
+    "description": "A description for 'cron.expression'"
+  },
+  {
+    "name": "DNS_IP",
+    "type": "java.lang.String",
+    "description": "A description for 'DNS_IP'"
+  },
+  {
+    "name": "CHECK_IP_URL",
+    "type": "java.lang.String",
+    "description": "A description for 'CHECK_IP_URL'"
+  },
+  {
+    "name": "ACCESS_KEY_ID",
+    "type": "java.lang.String",
+    "description": "A description for 'ACCESS_KEY_ID'"
+  },
+  {
+    "name": "SECRET_KEY_ID",
+    "type": "java.lang.String",
+    "description": "A description for 'SECRET_KEY_ID'"
+  },
+  {
+    "name": "ROUTE53_HOSTED_ZONE_ID",
+    "type": "java.lang.String",
+    "description": "A description for 'ROUTE53_HOSTED_ZONE_ID'"
+  },
+  {
+    "name": "DOMAIN_NAME",
+    "type": "java.lang.String",
+    "description": "A description for 'DOMAIN_NAME'"
+  },
+  {
+    "name": "DNS_IP",
+    "type": "java.lang.String",
+    "description": "A description for 'DNS_IP'"
+  }
+]}
