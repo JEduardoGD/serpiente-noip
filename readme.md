@@ -29,12 +29,12 @@ docker build -t noip .
 
 ## Run on test mode
 ```bash
-docker run --env-file ./vars.env noip
+docker run -e TZ=America/Mexico_City --env-file ./vars.env noip
 ```
 
 ## Run as daemon and non-stop flags
 ```bash
-docker run -d --restart unless-stopped --env-file ./vars.env noip
+docker run -d -e TZ=America/Mexico_City --restart unless-stopped --env-file ./vars.env noip
 ```
 
 
