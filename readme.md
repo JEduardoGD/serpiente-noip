@@ -13,8 +13,8 @@ A simple dynamic no-ip user based on aws, java 8, spring boot and docker.
 
 ### You will eed java8 and maven 3+ to compile
 Download and settingup maven and java on environment variables on linux
-dowload maven from https://maven.apache.org/download.cgi
-download java from https://www.oracle.com/mx/java/technologies/javase-jdk11-downloads.html
+*dowload maven from https://maven.apache.org/download.cgi
+*download java from https://www.oracle.com/mx/java/technologies/javase-jdk11-downloads.html
 (you could use jdk 11 to compile despite the code use java 8)
 ```bash
 export MAVEN_HOME=/home/ubuntu/apache-maven-3.8.1^
@@ -37,7 +37,7 @@ mvn clean package -Dmaven.test.skip=true
 
 ## Build the Docker Image
 Required
-* Docker installed
+* Docker installed (you could follow this https://docs.docker.com/engine/install/ubuntu/)
 ```bash
 docker build -t noip .
 ```
